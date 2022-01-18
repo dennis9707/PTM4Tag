@@ -1,0 +1,11 @@
+data/
+*.csv
+.vscode/
+results/
+bert/runs/
+bert/trinity/apex/
+*.log
+*.pt
+*.pyc
+__pycache__/
+apex/
