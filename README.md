@@ -1,4 +1,4 @@
-# Post2Vec Extension
+# PTM4Tag
 
 ## Data
 
@@ -27,8 +27,6 @@ https://zenodo.org/record/5604548#.YXoG7NZBw1I
 ```
    tar -xvf file.tar.gz 
 ```
-
-## Post2Vec Extension
 
 - Train File: ./bert/triplet/train_trinity.bash
 - Test File: ./bert/triplet/test_triplet.py
@@ -59,4 +57,3 @@ distributed training
     --num_train_epochs 3 \
     --learning_rate 1e-5  2>&1| tee train_trinity.log
 ```
-# PTM4Tag
